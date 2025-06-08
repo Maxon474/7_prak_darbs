@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
     <div class="gallery-container">
         <div class="gallery">
-            <!-- Square image -->
             <div class="gallery-item">
-                <img src="image1.jpg" alt="Square image">
+                <img src="image1.jpg" alt="img1">
             </div>
-            <!-- Horizontal image -->
+
             <div class="gallery-item">
-                <img src="image2.jpg" alt="Horizontal image">
+                <img src="image2.jpg" alt="img2">
             </div>
-            <!-- Vertical image -->
+
             <div class="gallery-item">
-                <img src="image3.jpg" alt="Vertical image">
+                <img src="image3.jpg" alt="img3">
             </div>
-            <!-- Wide image -->
+
             <div class="gallery-item">
-                <img src="image4.jpg" alt="Wide image">
+                <img src="image4.jpg" alt="img4">
             </div>
-            <!-- High image -->
+
             <div class="gallery-item">
-                <img src="image5.jpg" alt="High image">
+                <img src="image5.jpg" alt="img5">
             </div>
-            <!-- Small image -->
+
             <div class="gallery-item">
-                <img src="image6.jpg" alt="Small image">
+                <img src="image6.jpg" alt="img6">
             </div>
-            <!-- Big image -->
+
             <div class="gallery-item">
-                <img src="image7.jpg" alt="Big image">
+                <img src="image7.jpg" alt="img7">
+            </div>
+
+            <div class="gallery-item">
+                <div id="map"></div>
             </div>
         </div>
     </div>
+    <script src="map.js"></script>
 </body>
 </html> 
